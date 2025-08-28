@@ -44,3 +44,10 @@ while cap.isOpened():
     final_output = cv2.addWeighted(res1, 1, res2, 1, 0)
 
     cv2.imshow("My 🪄 Invisible Cloak", final_output)
+
+    # Exit on ESC
+    if cv2.waitKey(1) == 27:
+        break
+
+cap.release()
+cv2.destroyAllWindows()
