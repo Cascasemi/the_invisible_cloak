@@ -13,7 +13,7 @@ for i in range(60):
         continue
     background = np.flip(background, axis=1)  # flip horizontally
 
-print("Background captured ✅")
+print("Background successfully captured ✅")
 
 while cap.isOpened():
     ret, img = cap.read()
