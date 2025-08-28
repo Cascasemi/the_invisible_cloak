@@ -43,4 +43,4 @@ while cap.isOpened():
     res2 = cv2.bitwise_and(img, img, mask=mask_inv)
     final_output = cv2.addWeighted(res1, 1, res2, 1, 0)
 
-    cv2.imshow("My 🪄 Invisibility Cloak", final_output)
+    cv2.imshow("My 🪄 Invisible Cloak", final_output)
